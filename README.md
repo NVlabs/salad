@@ -13,7 +13,9 @@ efficiency while maintaining the block error rate (BLER) near a target value.
 Specifically, SALAD infers the SINR by minimizing the cross-entropy loss between received
 ACK/NACKs and predicted BLER values. The inference learning rate self-adapts via
 knowledge distillation in online fashion. 
-Based on this inference, SALAD then selects the MCS via hypothesis testing: if the SINR is suspected to be underestimated, a higher MCS is selected to accelerate link adaptation under improving channel conditions. 
+Based on this inference, SALAD then selects the MCS via hypothesis testing: if
+the SINR is suspected to be underestimated, a higher MCS is selected to
+accelerate link adaptation under improving channel conditions.
 
 To prevent BLER drift from its long-term target, SALAD applies a feedback
 control loop that adjusts the instantaneous BLER target. 
