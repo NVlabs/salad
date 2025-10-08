@@ -92,4 +92,4 @@ pip install -r requirements.txt
 ## References
 
 [1] R. Wiesmayr, L. Maggi, S. Cammerer, J. Hoydis, F. Aït Aoudia, A. Keller,
-["SALAD: Self-Adaptative Link Adaptation"](https://arxiv.org), arXiv, 2025
+["SALAD: Self-Adaptative Link Adaptation"](http://arxiv.org/abs/2510.05784), arXiv, 2025
